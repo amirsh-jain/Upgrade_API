@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoanOffers" duration-ms="5061" started-at="2020-12-20T22:47:17 PST" finished-at="2020-12-20T22:47:22 PST">
+    <groups>
+      <group name="functional">
+        <method signature="testLoginApi.testLogin()[pri:0, instance:upgradeApi.testLoginApi@54e1c68b]" name="testLogin" class="upgradeApi.testLoginApi"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="testLoginApi.testInvalidUserLogin()[pri:0, instance:upgradeApi.testLoginApi@54e1c68b]" name="testInvalidUserLogin" class="upgradeApi.testLoginApi"/>
+        <method signature="testLoginApi.testLogin()[pri:0, instance:upgradeApi.testLoginApi@54e1c68b]" name="testLogin" class="upgradeApi.testLoginApi"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="LoginApi" duration-ms="5061" started-at="2020-12-20T22:47:17 PST" finished-at="2020-12-20T22:47:22 PST">
+      <class name="upgradeApi.testLoginApi">
+        <test-method status="PASS" signature="testInvalidUserLogin()[pri:0, instance:upgradeApi.testLoginApi@54e1c68b]" name="testInvalidUserLogin" duration-ms="2637" started-at="2020-12-20T22:47:17 PST" finished-at="2020-12-20T22:47:19 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:upgradeApi.testLoginApi@54e1c68b]" name="getResult" is-config="true" duration-ms="9" started-at="2020-12-20T22:47:19 PST" finished-at="2020-12-20T22:47:19 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidUserLogin status=SUCCESS method=testLoginApi.testInvalidUserLogin()[pri:0, instance:upgradeApi.testLoginApi@54e1c68b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:upgradeApi.testLoginApi@54e1c68b]" name="testLogin" duration-ms="2172" started-at="2020-12-20T22:47:19 PST" finished-at="2020-12-20T22:47:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:upgradeApi.testLoginApi@54e1c68b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-12-20T22:47:21 PST" finished-at="2020-12-20T22:47:21 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=testLoginApi.testLogin()[pri:0, instance:upgradeApi.testLoginApi@54e1c68b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:upgradeApi.testLoginApi@54e1c68b]" name="tearDown" is-config="true" duration-ms="208" started-at="2020-12-20T22:47:21 PST" finished-at="2020-12-20T22:47:22 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- upgradeApi.testLoginApi -->
+    </test> <!-- LoginApi -->
+  </suite> <!-- LoanOffers -->
+</testng-results>
