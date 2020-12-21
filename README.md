@@ -12,7 +12,7 @@ Right click on file name in Package Explorer and `run as` TestNG Test
 Right click on  `testNG.xml`, that holds test class(es) name to be executed
 
 <b>Process #3: </b> 
-execute mvn command from command line mvn clean test -DsuiteXMLFile=testNG.xml
+execute mvn command from command line `mvn clean test -DsuiteXMLFile=testNG.xml`
 
 
 ### Endpoints
