@@ -4,15 +4,15 @@ credentials are invalid. The API endpoint is available at: https://credapi.credi
 
 
 ## How to execute test
-- Process #1 
-* Go to `src/test/java/upgradeApi/<test-file-name>`, that holds testcases
-* Right click on file name in Package Explorer and `run as` TestNG Test
+#1 
+Go to `src/test/java/upgradeApi/<test-file-name>`, that holds testcases
+Right click on file name in Package Explorer and `run as` TestNG Test
 
-- Process #2
- * Right click on  `testNG.xml`, that holds test class(es) name to be executed
+#2
+Right click on  `testNG.xml`, that holds test class(es) name to be executed
 
-- Process #3
- * execute mvn command from command line mvn clean test -DsuiteXMLFile=testNG.xml
+#3
+execute mvn command from command line mvn clean test -DsuiteXMLFile=testNG.xml
 
 
 ### Endpoints
